@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #f9a51a;
+}
+.navbar a.active {
+  color: #f9a51a;
+  font-weight: bold;
+  border-bottom: 2px solid #f9a51a;
+}
